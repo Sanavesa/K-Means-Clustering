@@ -4,6 +4,8 @@ This project showcases some examples of using K-Means to classify hand-written d
 ## Classify Hand-Written Digits
 K-means is a clustering algorithm, so it is not obvious on how it may classify hand-written digits. Having said that, it can be used as a faster nearest neighbor algorithm. Similar to K-Nearest Neighbors, classifying with K-means compresses the entire dataset into K centroids, which in turn speeds up the algorithm since finding the nearest neighbor is reduced from <code>O(N)</code> to <code>O(K)</code>. For more clarification, please refer to the pseudocode below:
 
+![Algo](https://user-images.githubusercontent.com/31108136/149611296-d62783be-72b7-488a-97fb-a6540f7f91f1.png)
+
 All in all, the results of this classifier were compared to other baseline classifiers such as logistic regression classifier and nearest neighbor classifier.
 
 | Classifier | Accuracy |
